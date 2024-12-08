@@ -87,3 +87,10 @@ Late February conference?
 	2. Write functional requirements. This helps us understand what the system needs to do to accomplish the user stories. "The system shall read from 3 IMU sensors, then write all 3 sensor values to flash storage.". Immediately turn functional requirements into GitHub issues
 	3. Write use cases, create component diagram circling components that meet a use case. This will help us keep in mind what's actually the important part in what we're developing. (IMPORTANT. Displaying GPS data is a use case, supplying a voltage is not. Sorry.)
 4. Have short lesson on software development cycle. If you want to work on something, either create a new issue or choose an existing issue. Branch from main with your issue. If you create a branch that's not linked to an issue, something went wrong. To merge, pull from main, create a PR, make sure it's reviewed by the product owner of that project, then merge and delete your branch.
+
+## Other Project info
+[Requirements.xlsx](https://cpslo.sharepoint.com/:x:/s/CalPolySpaceSystems/EYvOk4mcNM5IuLaI1rCtd-sBRekzS7ULWpzczZCWQ3wvFg?e=R9k6D9)
+Ryan James Fukui - Ok here is the project requirements document that our systems lead, Tarzan has been working on. The most pertinent requirement for avionics is 5 as that has all the data and telemetry we are expecting. This doc is still a work-in progress but I can make it a priority for the systems team and will let y'all know when these updates are made. The main things missing are 1. the difference between the stacks and 2. the separation mechanism. 3. recovery requirements
+1.  The upper stage stack includes everything listed in requirement 5 and the lower stage stack does not have video.  
+2. The separation mechanism currently uses the same ematches as recovery and will have 4 (subject to change)  (two placed on each side for redundancy).  
+3. recovery in both stages is the exact same as last year, documentation of what that entails will be added as a subreq under requirement 5
