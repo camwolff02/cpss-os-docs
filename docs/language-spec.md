@@ -1,5 +1,5 @@
 # CPSS OS Specification
-## CPSS Message Library
+## CPSS Core Messages
 ```yaml
 messages:
 	Gnss:
@@ -19,7 +19,7 @@ messages:
 		y: u32
 
 	RadioPacket:
-		data: list[Byte]
+		data: list[u8]
 
 	Quaternion:
 		x: f64
@@ -36,6 +36,12 @@ messages:
 		sec: i32
 		nanosec: i32
 	
+```
+
+## Type System
+```
+T := 
+  |   
 ```
 
 ## CPSS Component Library
