@@ -38,12 +38,6 @@ messages:
 	
 ```
 
-## Type System
-```
-T := 
-  |   
-```
-
 ## CPSS Component Library
 
 ```yaml

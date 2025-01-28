@@ -11,6 +11,7 @@
 - As a mission operator, I want the realtime GPS location, so that I can find and recover the rocket.
 - As a mission operator, I want the realtime current and maximum rocket speed and altitude, so I can report to competition judges and know the rocket's limits.
 - As a mission operator, I want the exact location from the rocket's sensors at recovery time, so that I have a redundant measurement to report to judges.
+- As a mission operator, I want to find my rocket and know my rocket's maximum height after landing without using the flight computer, so I can recover my rocket if the flight computer fails 
 
 - As a developer, I want to construct my code in modular components, so I can reuse software and run my code on any flight computer processor I want.
 - As a developer, I want to easily publish data from one component to another, so I can move data without worrying if it's running on the same computer or how I send it.
